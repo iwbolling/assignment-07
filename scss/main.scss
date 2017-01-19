@@ -1,7 +1,17 @@
 *{ box-sizing: border-box }
-img {
-   width: 100%;
-   display: block;
-}
 
 .columnscontainer{font-size: 0;}
+
+@import "./infopanes";
+@import "./navbarleft";
+@import "./navbartop";
+@import "./submenu";
+
+body{font-family: "Hind", "Futura", "sans-serif";}
+
+
+@media screen and (min-width: 768px){
+  .navbartop{
+    display: none;
+  }
+}

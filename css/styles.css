@@ -1,11 +1,63 @@
 * {
   box-sizing: border-box; }
 
-img {
-  width: 100%;
-  display: block; }
-
 .columnscontainer {
   font-size: 0; }
+
+.restaurants {
+  display: inline-block; }
+
+.noodlebar {
+  background-image: url(../images/momofuko-01-noodlebarbowl_mini.jpg); }
+
+.navbartop {
+  background-color: white;
+  border-bottom: 2px solid lightgrey;
+  height: 64px;
+  margin-bottom: 64px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.momomobilelogo, .mobilenavitem, .momomobilemenu {
+  display: inline-block;
+  vertical-align: middle; }
+
+.momomobilelogo, .momomobilemenu {
+  width: 15%; }
+
+.momomobilelogo {
+  text-align: center; }
+
+.momomobilelogo img {
+  height: 24px; }
+
+.mobilenavitem {
+  border-left: 2px solid lightgrey;
+  font-size: medium;
+  height: 100%;
+  width: 35%; }
+
+.mobilenavitem h3 {
+  font-size: 16px;
+  text-align: center; }
+
+.momomobilemenu {
+  border-left: 2px solid lightgrey;
+  height: 100%;
+  text-align: center; }
+
+.momomobilemenu i {
+  font-size: 32px;
+  font-weight: lighter;
+  color: lightgrey;
+  line-height: 64px; }
+
+body {
+  font-family: "Hind", "Futura", "sans-serif"; }
+
+@media screen and (min-width: 768px) {
+  .navbartop {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

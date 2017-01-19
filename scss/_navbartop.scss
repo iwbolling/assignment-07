@@ -1,0 +1,47 @@
+.navbartop{
+  background-color: white;
+  border-bottom: 2px solid lightgrey;
+  height: 64px;
+  margin-bottom: 64px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.momomobilelogo, .mobilenavitem, .momomobilemenu{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.momomobilelogo, .momomobilemenu{width: 15%;}
+
+.momomobilelogo{text-align: center;}
+
+.momomobilelogo img{
+  height: 24px;
+}
+
+.mobilenavitem{
+  border-left: 2px solid lightgrey;
+  font-size: medium;
+  height: 100%;
+  width: 35%;
+}
+
+.mobilenavitem h3{
+  font-size: 16px;
+  text-align: center;
+}
+
+.momomobilemenu{
+  border-left: 2px solid lightgrey;
+  height: 100%;
+  text-align: center;
+}
+
+.momomobilemenu i{
+  font-size: 32px;
+  font-weight: lighter;
+  color: lightgrey;
+  line-height: 64px;
+}
