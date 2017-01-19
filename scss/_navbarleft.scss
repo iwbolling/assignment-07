@@ -1,10 +1,11 @@
+$navbarleftwidth: 200px;
+
 .navbarleft{
-  background-color: papayawhip  ;
+  border-right: 2px solid lightgrey;
   height: 100%;
-  margin: 0;
   position: fixed;
   top: 0;
-  width: 200px;
+  width: $navbarleftwidth;
 }
 
 .desknavitem, .desknavfooter{
@@ -19,7 +20,12 @@
 }
 
 .desknavitem img{
-  padding-top: 16px;
+  height: 30%;
+  margin: 16px 0 0 0px;
+}
+
+.desknavitem h3{
+  margin: 0;
 }
 
 .momomegalogo{
@@ -31,4 +37,11 @@
 .momomegalogo img{
   padding: 24px 0px;
   width: 80%;
+}
+
+.desknavfooter{
+  bottom: 0;
+  height: 25%;
+  position: absolute;
+  width: 100%;
 }

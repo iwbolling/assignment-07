@@ -19,7 +19,12 @@ body{font-family: "Hind", "Futura", "sans-serif";}
   .navbartop{
     display: none;
   }
+  #fullpage{
+    padding-left: $navbarleftwidth;
+  }
   .navbarleft{
     display: block;
+    margin: 0 auto;
+    left: 0;
   }
 }
