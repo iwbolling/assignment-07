@@ -10,6 +10,36 @@
 .noodlebar {
   background-image: url(../images/momofuko-01-noodlebarbowl_mini.jpg); }
 
+.navbarleft {
+  background-color: papayawhip;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 200px; }
+
+.desknavitem, .desknavfooter {
+  display: block;
+  text-align: center;
+  width: 100%; }
+
+.desknavitem {
+  border-top: 2px solid lightgrey;
+  font-size: 12px;
+  height: 15%; }
+
+.desknavitem img {
+  padding-top: 16px; }
+
+.momomegalogo {
+  height: 20%;
+  text-align: center;
+  vertical-align: middle; }
+
+.momomegalogo img {
+  padding: 24px 0px;
+  width: 80%; }
+
 .navbartop {
   background-color: white;
   border-bottom: 2px solid lightgrey;
@@ -56,8 +86,14 @@
 body {
   font-family: "Hind", "Futura", "sans-serif"; }
 
+.navbarleft {
+  display: none; }
+
 @media screen and (min-width: 768px) {
   .navbartop {
-    display: none; } }
+    display: none; }
+
+  .navbarleft {
+    display: block; } }
 
 /*# sourceMappingURL=styles.css.map */

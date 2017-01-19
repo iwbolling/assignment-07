@@ -10,8 +10,16 @@
 body{font-family: "Hind", "Futura", "sans-serif";}
 
 
+// Mobile-responsive display
+.navbarleft{
+  display: none;
+}
+
 @media screen and (min-width: 768px){
   .navbartop{
     display: none;
+  }
+  .navbarleft{
+    display: block;
   }
 }
