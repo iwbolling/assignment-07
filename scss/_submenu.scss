@@ -21,13 +21,13 @@ $submenufontsize: 14px;
 
 .submenudesc{
   padding-left: 32px;
-  width: 70%;
+  width: 56%;
 }
 
 .sortingitem{
   padding: 0px 24px;
   text-align: center;
-  width: 15%;
+  width: 22%;
 }
 
 .sortingitem h4{
@@ -42,4 +42,14 @@ $submenufontsize: 14px;
 
 .highlighteditem{
   background-color: #35302F;
+}
+
+.dropdownbutton{
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+}
+
+.dropdownbutton i{
+  font-size: 32px;
 }
