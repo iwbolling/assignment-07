@@ -45,9 +45,24 @@
 
 .desknavfooter {
   bottom: 0;
+  font-size: initial;
   height: 25%;
   position: absolute;
+  text-align: center;
   width: 100%; }
+
+.desknavfooter i {
+  margin: 8px; }
+
+.desknavfooter img {
+  display: block;
+  margin: 16px auto;
+  width: 25%; }
+
+.desknavfooter h3 {
+  display: inline-block;
+  font-weight: lighter;
+  margin: 0; }
 
 .navbartop {
   background-color: white;
@@ -92,8 +107,46 @@
   color: lightgrey;
   line-height: 64px; }
 
+.submenu {
+  background-color: #050404;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 100%; }
+
+.submenudesc, .sortingitem, .dropdownbutton {
+  display: inline-block;
+  font-size: 14px;
+  height: 100%;
+  line-height: 14px;
+  vertical-align: top; }
+
+.submenudesc {
+  padding-left: 32px;
+  width: 70%; }
+
+.sortingitem {
+  padding: 0px 24px;
+  text-align: center;
+  width: 15%; }
+
+.sortingitem h4 {
+  margin-bottom: 0; }
+
+.sortingitem img {
+  margin: 0;
+  padding: 0;
+  width: 32px; }
+
+.highlighteditem {
+  background-color: #35302F; }
+
 body {
-  font-family: "Hind", "Futura", "sans-serif"; }
+  font-family: "Hind", "Futura", "sans-serif";
+  margin: 0; }
 
 .navbarleft {
   display: none; }
@@ -108,6 +161,9 @@ body {
   .navbarleft {
     display: block;
     margin: 0 auto;
-    left: 0; } }
+    left: 0; }
+
+  .dropdownbutton {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

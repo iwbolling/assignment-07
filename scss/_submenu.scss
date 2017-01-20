@@ -1,0 +1,45 @@
+$submenufontsize: 14px;
+
+.submenu{
+  background-color: #050404;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+.submenudesc, .sortingitem, .dropdownbutton{
+  display: inline-block;
+  font-size: $submenufontsize;
+  height: 100%;
+  line-height: $submenufontsize;
+  vertical-align: top;
+}
+
+.submenudesc{
+  padding-left: 32px;
+  width: 70%;
+}
+
+.sortingitem{
+  padding: 0px 24px;
+  text-align: center;
+  width: 15%;
+}
+
+.sortingitem h4{
+  margin-bottom: 0;
+}
+
+.sortingitem img{
+  margin: 0;
+  padding: 0;
+  width: 32px;
+}
+
+.highlighteditem{
+  background-color: #35302F;
+}
