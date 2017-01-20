@@ -32,6 +32,10 @@ body{
   display: none;
 }
 
+.restaurants{
+  padding-top: 96px;
+}
+
 // Tablet and desktop display
 @media screen and (min-width: 768px){
   .navbartop{
@@ -47,21 +51,29 @@ body{
   }
   .submenu{
     display: inline-block;
+    height: 48px;
     margin: 0;
     padding: 0;
+    position: fixed;
     top: 0;
+    width: 100%;
   }
   .submenudesc{
+    border: none;
     display: inline-block;
-    width: 56%;}
+    width: 56%;
+  }
   .sortingitem{
     display: inline-block;
     line-height: $submenufontsize;
     padding: 0px 24px;
     vertical-align: top;
-    width: 22%;
+    width: 12%;
   }
   .dropdownbutton{
     display: none;
   }
+  .infopane{
+    height: 60vh;
+    width: 48%;}
 }

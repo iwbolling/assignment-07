@@ -1,11 +1,55 @@
 .restaurants{
   display: inline-block;
+  text-align: center;
+  width: 100%;
 }
-
 .infopane{
-
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: inline-block;
+  height: 60vh;
+  margin: 2px;
+  text-align: center;
+  vertical-align: middle;
+  width: 90%;
 }
 
-.noodlebar{
-  background-image: url(../images/momofuko-01-noodlebarbowl_mini.jpg);
+.infopane p{
+  font-size: initial;
+  padding-top: 32px;
 }
+
+.restname{
+  font-size: 32px;
+  margin-bottom: 0;
+  padding-top: 72px;
+  vertical-align: middle;
+}
+
+.infopane img{
+  margin-top: 0;
+  padding-bottom: 0;
+  width: 100px;
+}
+
+.noodlebar{background-image: url(../images/momofuko-01-noodlebarbowl_mini.jpg);}
+
+.ssambar{background-image: url(../images/momofuko-02-ssam-bar.jpg);}
+
+.ko{background-image: url(../images/momofuko-03-ko.png);}
+
+.mapeche{background-image: url(../images/momofuko-04-ma-peche.jpg);}
+
+.nishi{background-image: url(../images/momofuko-05-nishi.jpg);}
+
+.ccdc{background-image: url(../images/momofuko-06-CCDC.jpg);}
+
+.nikai{background-image: url(../images/momofuku-nikai.jpg);}
+
+.daisho{background-image: url(../images/momofuko-07-daisho.png);}
+
+.shoto{background-image: url(../images/momofuko-08-shoto.png);}
+
+.milkbar{background-image: url(../images/momofuku-milkbar.jpg);}
