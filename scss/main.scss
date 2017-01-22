@@ -61,14 +61,19 @@ body{
   .submenudesc{
     border: none;
     display: inline-block;
-    width: 56%;
+    width: 42%;
+  }
+  .submenuright{
+    display: inline-block;
+    right: 0;
+    width: 32%;
   }
   .sortingitem{
     display: inline-block;
     line-height: $submenufontsize;
     padding: 0px 24px;
     vertical-align: top;
-    width: 12%;
+    width: 50%;
   }
   .dropdownbutton{
     display: none;
